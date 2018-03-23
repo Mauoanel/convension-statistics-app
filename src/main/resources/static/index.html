@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="theme.css" type="text/css">
+    <title>BCSA Login</title>
+    <meta name="keywords" content="BCSA Login"> </head>
+
+<body class="">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container">
+
+        <div class="col-md-1">
+            <img class="img-fluid d-block img-thumbnail mx-auto" src="https://sacd.christians.co.za/File_Uploads/bcsa.jpg" width="100" height="100"> </div>
+
+        <a class="navbar-brand" href="#">BCSA Statistics</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/api/v1/access/management/login">Admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline m-0">
+                <button class="btn btn-primary" type="submit">Admin Login</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card text-white bg-primary p-2">
+                    <div class="card-body">
+                        <h1 class="mb-4">Sign In</h1>
+                        <form action="/api/v1/access/management/login">
+                            <div class="form-group"> <label>Email address</label>
+                                <input type="email" class="form-control" placeholder="Enter email"> </div>
+                            <div class="form-group"> <label>Password</label>
+                                <input type="password" class="form-control" placeholder="Password"> </div>
+                            <button type="submit" class="btn btn-secondary">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <h1 class="display-1 text-primary p-5 my-2"><i class="fa fa-sign-in d-block" style="font-size:200px"></i></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="py-2">
+    <div class="container"> </div>
+</div>
+<div class="text-white bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="p-5 col-md-3">
+                <img class="img-fluid d-block" src="https://sacd.christians.co.za/File_Uploads/bcsa.jpg"> </div>
+            <div class="p-5 col-md-4">
+                <h4 class="mb-4">Baptist Convension Of South Africa
+                    <br>
+                    <br>24 Raleigh St, Yeoville, Johannesburg, 2198</h4>
+            </div>
+            <div class="p-5 col-md-4">
+                <h3>Get in touch</h3>
+                <form class="my-4">
+                    <fieldset class="form-group"> <label for="exampleInputEmail1">Get monthly updates</label>
+                        <input type="email" class="form-control" placeholder="Enter email"> </fieldset>
+                    <button type="submit" class="btn btn-outline-light">Submit</button>
+                </form>
+                <h3 class="mt-5">Social</h3>
+                <div class="align-self-center col-12 my-4">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook d-inline fa-lg mr-3 text-white"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter d-inline mx-3 fa-lg text-white"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram d-inline mx-3 fa-lg text-white"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mt-3">
+                <p class="text-center">© Copyright 2018 Baptist Convension Of South Africa - All rights reserved. </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
